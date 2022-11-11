@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-#include "/home/cameron/.config/suckless/dwm/themes/onedark.h"
+#include "/home/cameron/.config/suckless/dwm/themes/dracula.h"
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int gappx     = 20;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
