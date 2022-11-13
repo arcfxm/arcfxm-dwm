@@ -52,5 +52,3 @@ static char *statuscolors[][ColCount] = {
 	[SchemeHidSel]       = { "#9ec07c",        normbordercolor,		c000000,              c000000 },
 	[SchemeUrg]          = { "#076678",        normbgcolor,			urgbordercolor,       urgfloatcolor },
 };
-Footer
-

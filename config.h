@@ -1,7 +1,6 @@
 /* See LICENSE file for copyright and license details. */
-
+#include "themes/nord.h";
 /* appearance */
-#include "/home/cameron/.config/suckless/dwm/themes/andromeda.h"
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int gappx     = 20;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -9,11 +8,6 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Fira Code Nerd Font:size=20" }; /* Font size is for my MBP dispaly, likely large on other displays */
 static const char dmenufont[]       = "Fira Code Nerd Font:size=20";
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2  },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_gray5 },
-};
 
 /* tagging */
 static const char *tags[] = { "", "", "", "ﭮ", "", "", "", "", "" };
